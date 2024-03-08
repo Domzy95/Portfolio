@@ -372,3 +372,13 @@ footer {
 footer p {
   text-align: center;
 }
+/*//*DARK MODE BUTTON */
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+}
