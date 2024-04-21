@@ -330,6 +330,9 @@ article.icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+.project-description {
+  margin-top: 20px;
+}
 /*//*CONTACT SECTION*/
 #contact {
   display: flex;
