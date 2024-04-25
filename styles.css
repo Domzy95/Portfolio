@@ -375,6 +375,25 @@ footer {
 footer p {
   text-align: center;
 }
+
+/*//*certificate  SECTION*/
+
+#certificates {
+  position: relative; /* Make the certificates section relatively positioned */
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Align text center */
+  height: 100vh; /* Example height, adjust as needed */
+}
+
+#certificate1 {
+  position: absolute; /* Position the certificate1 image */
+  top: 50%; /* Move the image vertically by half of its height */
+  left: 50%; /* Move the image horizontally by half of its width */
+  transform: translate(-50%, -50%); /* Center the image precisely */
+}
+
 /*//*DARK MODE BUTTON */
 #icon {
   width: 30px;
